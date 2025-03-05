@@ -89,7 +89,7 @@
     </div>
     <div class="container contact-form" id="contact">
         <h2>Contact Us</h2>
-        <form>
+        <form action="mailto:info@mdyyeshiva.com" method="post" enctype="text/plain">
             <input type="text" name="name" placeholder="Your Name" required>
             <input type="email" name="email" placeholder="Your Email" required>
             <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
@@ -98,3 +98,4 @@
     </div>
 </body>
 </html>
+

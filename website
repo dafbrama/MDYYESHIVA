@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDY Yeshiva</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #004c6d, #0077b6);
+            padding: 20px;
+            text-align: center;
+            color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        header img {
+            max-width: 150px;
+            display: block;
+            margin: 0 auto;
+        }
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1, h2, h3 {
+            color: #004c6d;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            margin-top: 20px;
+            background: #0077b6;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+        .cta-button:hover {
+            background: #005f99;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 90%;
+            max-width: 600px;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+        button {
+            padding: 12px 20px;
+            background: #0077b6;
+            color: white;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 6px;
+            transition: 0.3s;
+        }
+        button:hover {
+            background: #005f99;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/MDY_logo_clear.png" alt="MDY Logo">
+        <h1>Welcome to MDY Yeshiva</h1>
+    </header>
+    <div class="container">
+        <h2>About MDY Yeshiva</h2>
+        <p>Join the MDY Yeshiva, a vibrant Bais Medrash based on the MDY Derech with R' Eli Stefansky as the Rosh Yeshiva. Our yeshiva fosters deep Torah learning, commitment, and a warm community.</p>
+        <img src="images/Daf_Yomi_LOGO.png" alt="MDY Theme" style="max-width: 300px;">
+        <h3>Be Part of the Experience</h3>
+        <a href="#contact" class="cta-button">Get in Touch</a>
+    </div>
+    <div class="container contact-form" id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</body>
+</html>
